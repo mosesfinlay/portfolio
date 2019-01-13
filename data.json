@@ -1,0 +1,84 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "vdNote",
+      "description": "vdNote is a note taking app for Youtube videos.",
+      "technologies": ["HTML", "CSS", "Youtube API", "JavaScript", "jQuery"],
+      "live_link": "http://vdnote.com",
+      "github_link": "https://github.com/mosesfinlay/vdnote",
+      "image_urls": [
+        "../static/images/vdnote/vdnote-1.png",
+        "../static/images/vdnote/vdnote-2.png",
+        "../static/images/vdnote/vdnote-3.png"
+      ]
+    },
+    {
+      "id": 1,
+      "project_name": "Employee Directory",
+      "description": "This project is a employee directory that uses Fetch to retrieve a list of made up users from an API.",
+      "technologies": ["HTML", "CSS", "Javascript", "AJAX"],
+      "live_link": "https://mosesfinlay.github.io/employee-directory/",
+      "github_link": "https://github.com/mosesfinlay/employee-directory",
+      "image_urls": [
+        "../static/images/employee-directory/employee-directory-1.png",
+        "../static/images/employee-directory/employee-directory-2.png",
+        "../static/images/employee-directory/employee-directory-3.png",
+        "../static/images/employee-directory/employee-directory-4.png"
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "Tic Tac Toe",
+      "description": "This project is a simple tic-tac-toe game that uses Javascript.",
+      "technologies": ["HTML", "CSS", "Javascript"],
+      "live_link": "https://mosesfinlay.github.io/tic-tac-toe/",
+      "github_link": "https://github.com/mosesfinlay/tic-tac-toe",
+      "image_urls": [
+        "../static/images/tic-tac-toe/tic-tac-toe-1.png",
+        "../static/images/tic-tac-toe/tic-tac-toe-2.png",
+        "../static/images/tic-tac-toe/tic-tac-toe-3.png",
+        "../static/images/tic-tac-toe/tic-tac-toe-4.png"
+      ]
+    },
+    {
+      "id": 3,
+      "project_name": "Interactive Form",
+      "description": "This project is a form that uses Javascript to make it interactive and to validate it.",
+      "technologies": ["HTML", "CSS", "Javascript"],
+      "live_link": "https://mosesfinlay.github.io/interactive-form/",
+      "github_link": "https://github.com/mosesfinlay/interactive-form",
+      "image_urls": [
+        "../static/images/interactive-form/interactive-form-1.png",
+        "../static/images/interactive-form/interactive-form-2.png",
+        "../static/images/interactive-form/interactive-form-3.png"
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "Pagination Filter",
+      "description": "This is a project that uses pagination links to sort through a list of students.",
+      "technologies": ["HTML", "CSS", "Javascript"],
+      "live_link": "https://mosesfinlay.github.io/pagination-filter/",
+      "github_link": "https://github.com/mosesfinlay/pagination-filter",
+      "image_urls": [
+        "../static/images/pagination-filter/pagination-filter-1.png",
+        "../static/images/pagination-filter/pagination-filter-1.png",
+        "../static/images/pagination-filter/pagination-filter-3.png"
+      ]
+    },
+    {
+      "id": 5,
+      "project_name": "Random Quote Generator",
+      "description": "This is a project that displays a random quote every twelve seconds or when you click a button.",
+      "technologies": ["HTML", "CSS", "Javascript"],
+      "live_link": "https://mosesfinlay.github.io/random-quote-generator/",
+      "github_link": "https://github.com/mosesfinlay/random-quote-generator",
+      "image_urls": [
+        "../static/images/random-quote-generator/random-quote-generator-1.png",
+        "../static/images/random-quote-generator/random-quote-generator-2.png",
+        "../static/images/random-quote-generator/random-quote-generator-3.png"
+      ]
+    }
+  ]
+}
