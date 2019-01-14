@@ -32,8 +32,13 @@ app.use((req, res, next) => {
   const err = new Error("Not Found");
   err.status = 404;
   console.log(`There was an error. (${err.message})`);
-  res.render("error", { err });
   next(err);
+});
+
+app.use((err, req, res, next) => {
+  // Sets the response status code
+  res.status(err.status);
+  res.render("error", { err });
 });
 
 // Listens to the port variable
