@@ -1,6 +1,9 @@
+body {
+  background-color: #eee;
+}
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  font-family: 'Lato', sans-serif;
 }
 
   h5{
@@ -147,4 +150,13 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+.error-info {
+  margin-left: 38px;
+}
+
+.thumbnail {
+  box-shadow: 5px 5px 18px rgba(46, 61, 73, .2);
+  border-radius: 3px;
 }

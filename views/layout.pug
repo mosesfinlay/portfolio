@@ -5,7 +5,7 @@ html(class="no-js" lang="en" dir="ltr")
     meta(http-equiv='x-ua-compatible', content='ie=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title Portfolio Site
-    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    link(href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet")
     link(rel='stylesheet', href='/static/css/foundation.css')
     link(rel='stylesheet', href='/static/css/style.css')
   body
@@ -17,14 +17,11 @@ html(class="no-js" lang="en" dir="ltr")
             img.thumbnail(src="../static/images/me.jpg")
           .cell.auto
 
-            //- Add your name here.
             h5 Moses
 
-            //- Add text here to describe who you are, what you do, and why you are so aweome.
             p.text-light
               | My name is Moses Finlay, I am a thirteen year old Full Stack JavaScript Developer based in Oregon.
 
-            //- Add about page route to the href below. 
             a(href="/about") Learn More →
 
     .off-canvas-content(data-off-canvas-content='')
@@ -32,12 +29,11 @@ html(class="no-js" lang="en" dir="ltr")
         .title-bar-left
           button.menu-icon(type='button', data-toggle='my-info')
 
-          //- Add your name here.  This is for the mobile screen sized version.
           span.title-bar-title Moses
       block content
-        
 
-      
+
+
   script(src='/static/js/vendor/jquery.js')
   script(src='/static/js/vendor/what-input.js')
   script(src='/static/js/vendor/foundation.js')
